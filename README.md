@@ -91,8 +91,13 @@ CloudFactory for providing human annotation labor.
 The following radiologists for providing their time, knowledge, connections and dedications to make our research possible:
 
 Prof. Lorenzo Preda
+
 Prof. Nicola Sverzellati
+
 Prof. Luca Richeldi
+
 Prof. Alessandro Venturi
+
 Prof. Francesco Vaia
+
 Prof. Paolo Spagnolo
