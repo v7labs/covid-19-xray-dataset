@@ -64,7 +64,7 @@ Below are the 23 most commonly represented classes by image count and instances:
 
 **Annotations**
 
-Special thanks to [CloudFactory](https://cloudfactory.com) for providing the human workforce for this research project. Each image was viewed and labelled by a human, and reviewed by V7.
+Special thanks to [CloudFactory](https://cloudfactory.com) for providing the human workforce for this research project. Each image was viewed and labelled by a human, and reviewed by [V7](https://v7labs.com).
 
 **License:** [CC4.0](https://creativecommons.org/licenses/by/4.0/)
 
