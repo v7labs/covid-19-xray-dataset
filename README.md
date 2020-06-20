@@ -1,5 +1,8 @@
 # COVID-19 xray dataset
 
+
+![media/covid-chest-xray-cover.jpg](media/covid-chest-xray-cover.jpg)
+
 [BROWSE & DOWNLOAD THE DATASET ON V7 DARWIN HERE](https://darwin.v7labs.com/v7-labs/covid-19-chest-x-ray-dataset)
 
 or run the following command from [Darwin-py](https://v7labs.github.io/darwin-py/) to download the latest version
