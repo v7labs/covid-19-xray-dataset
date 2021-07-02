@@ -1,23 +1,22 @@
 # COVID-19 xray dataset
 
-
 ![media/covid-chest-xray-cover.jpg](media/covid-chest-xray-cover.jpg)
 
 [BROWSE & DOWNLOAD THE DATASET ON V7 DARWIN HERE](https://darwin.v7labs.com/v7-labs/covid-19-chest-x-ray-dataset)
 
 or run the following command from [Darwin-py](https://v7labs.github.io/darwin-py/) to download the latest version
 
+If you have pulled the images before from the `all-images` export tag, please first delete any images you have locally under `__datasets_dir__/datasets/v7-labs/covid-19-chest-x-ray-dataset/images`. You can find the value of `__datasets_dir__` in the darwin-py CLI configuration file, which will be located in `~/.darwin/config.yaml`
+
+After executing the below command to pull the `all-images-v2` images; please create a new dataset in `http://darwin.v7labs.com/` to upload the images, and then apply the annotations.
+
 ```bash
 pip install darwin-py
-darwin dataset pull v7-labs/covid-19-chest-x-ray-dataset:all-images
+darwin dataset pull v7-labs/covid-19-chest-x-ray-dataset:all-images-v2
 ```
 
 This dataset contains 6500 images of AP/PA chest x-rays with pixel-level polygonal lung segmentations. There are [517 cases](https://github.com/ieee8023/covid-chestxray-dataset) of COVID-19 amongst these.
 Use the command below to download only images presenting COVID-19.
-
-```sh
-darwin dataset pull v7-labs/covid-19-chest-x-ray-dataset:covid-only
-```
 
 **WARNING:** This dataset is not intended for use in clinical diagnostics.
 
@@ -75,9 +74,9 @@ Special thanks to [CloudFactory](https://cloudfactory.com) for providing the hum
 
 There are 517 cases of COVID-19 from the collaborative efforts of [https://github.com/ieee8023/covid-chestxray-dataset](https://github.com/ieee8023/covid-chestxray-dataset) where export versions of this dataset are also available.
 
-*Joseph Paul Cohen and Paul Morrison and Lan Dao
+_Joseph Paul Cohen and Paul Morrison and Lan Dao
 COVID-19 image data collection, arXiv:2003.11597, 2020
-https://github.com/ieee8023/covid-chestxray-dataset*
+https://github.com/ieee8023/covid-chestxray-dataset_
 
 Licenses for the images of the dataset above are included in the **metadata.csv** file sourced from the repository above.
 
@@ -86,7 +85,7 @@ Licenses for the images of the dataset above are included in the **metadata.csv*
 5863 images are sourced from [https://data.mendeley.com/datasets/rscbjbr9sj/2](https://data.mendeley.com/datasets/rscbjbr9sj/2) (also available and commonly referred to by this Kaggle dataset: [https://www.kaggle.com/paultimothymooney/chest-xray-pneumonia/data](https://www.kaggle.com/paultimothymooney/chest-xray-pneumonia/data))
 **License:** [CC4.0](https://creativecommons.org/licenses/by/4.0/)
 
-*Kermany, Daniel; Zhang, Kang; Goldbaum, Michael (2018), “Labeled Optical Coherence Tomography (OCT) and Chest X-Ray Images for Classification”, Mendeley Data, v2http://dx.doi.org/10.17632/rscbjbr9sj.2*
+_Kermany, Daniel; Zhang, Kang; Goldbaum, Michael (2018), “Labeled Optical Coherence Tomography (OCT) and Chest X-Ray Images for Classification”, Mendeley Data, v2http://dx.doi.org/10.17632/rscbjbr9sj.2_
 
 **Special thanks**
 
